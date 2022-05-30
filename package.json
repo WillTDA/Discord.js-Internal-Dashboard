@@ -1,0 +1,33 @@
+{
+  "name": "discord.js-internal-dashboard",
+  "version": "1.0.0",
+  "description": "Create a minimal dashboard for your discord bot using select menus, modals and buttons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillTDA/Discord.js-Internal-Dashboard"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "internal",
+    "dashboard",
+    "discord.js-dashboard",
+    "discord-dashboard",
+    "discord-bot-dashboard",
+    "config",
+    "configuration",
+    "settings",
+    "modal",
+    "button",
+    "select"
+  ],
+  "author": "WillTDA",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "discord.js": "^13.7.0"
+  }
+}
