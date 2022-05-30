@@ -79,6 +79,8 @@ module.exports = async function (input, options = {}) {
     }
 
     // Validate and build startEmbed
+    options.startEmbed = options.startEmbed || {};
+
     if (!options.startEmbed.embed) {
         options.startEmbed.embed = new Discord.MessageEmbed()
             .setTitle(`${inputData.client.user.username} Settings Menu`)
